@@ -30,6 +30,22 @@ Styling the top left border radius, you would use a class like `.rounded-tl-sm-l
 That would apply a `sm` border radius to the _horizontal_ axis of that corner
 and a `lg` border radius to the _vertical_ axis.
 
+## Usage
+
+You can apply one or more of these utility classes to any element.
+
+For example:
+
+```html
+<div class="rounded-tl-sm-lg rounded-br-xl-sm">
+</div>
+```
+
+This would add a border radius to the "top left" corner with a `sm` radius to its
+_horizontal_ axis and an `lg` radius to the _vertical_ axis.  At the same time
+it would also add a border radius to the "bottom right" corner with an `xl`
+radius to its _horizontal_ axis and a `sm` radius to the _vertical_ axis.
+
 ## Customizing The Config
 
 The script has a default config for the various border radius sizes, but these can be
